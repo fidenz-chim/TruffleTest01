@@ -12,7 +12,7 @@ http://truffleframework.com/docs/getting_started/installation
 Setup testrpc
 https://github.com/ethereumjs/testrpc
 
-Clone this repository into your local machine
+Clone [this](https://github.com/fidenz-chim/TruffleTest01) repository into your local machine
 
 You do not have to run _truffle init_ as the requreid files are already in this repo. But if you are setting up a fresh project, you should run _truffle init_ to initialise the project with truffle.
 
