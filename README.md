@@ -1,7 +1,7 @@
 # TruffleTest01
 Simplest possible Solidity app using Truffle and EhereumJs-testrpc. This has eleminated everything related to Ethereum platform so it uses simple Solidity programing language. I believe this would help software engineers joining Ethereum community from other deciplines to shorten their learning curve.
 
-Setting up the environment 
+**Setting up the environment** 
 
 Setup nmp
 https://www.npmjs.com/get-npm
@@ -12,11 +12,12 @@ http://truffleframework.com/docs/getting_started/installation
 Setup testrpc
 https://github.com/ethereumjs/testrpc
 
+**Setting up the project** 
 Clone [this](https://github.com/fidenz-chim/TruffleTest01) repository into your local machine
 
-You do not have to run _truffle init_ as the requreid files are already in this repo. But if you are setting up a fresh project, you should run _truffle init_ to initialise the project with truffle.
+Run _truffle init_ to initialise the project with truffle, but you do not have to do this if you are using this repo.
 
-Again, correct configuraions are in place once you clone the project, but following step should be done if you are trying to test a fresh project. 
+Configure truffle to work with _testrpc_ .Again, correct configuraions are in place if you clone this project. If you are trying truffle on a fresh project, following step should be done. 
 
 Update truffle.js as it looks like below which configuer the truffle to interact with your local instance of testrpc running at port 8545
 ```
@@ -38,6 +39,7 @@ Theree important files
 2. TestSquareTest.sol - Test functions for _SquareTest_
 3. TestAddSubTest.sol - Test functions for _AddSubTest_
 
+**Run the project**
 From your project directory, run following commands to see the sample program in action.
 ```
 testrpc
