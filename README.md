@@ -15,7 +15,7 @@ Create a new folder for test projet, run "truffle init" in your terminal (should
 
 Update truffle.js
 
-'''json
+'''javascript
 module.exports = {
    networks: {
    development: {
@@ -25,4 +25,4 @@ module.exports = {
   }
  }
 };
-...
+'''
