@@ -11,9 +11,9 @@ http://truffleframework.com/docs/getting_started/installation
 Setup testrpc
 https://github.com/ethereumjs/testrpc
 
-Create a new folder for test projet, run "truffle init" in your terminal (should be in newly created folder)
+Create a new folder for test projet, run _truffle init_ in your terminal (should be in newly created folder)
 
-Update truffle.js
+Update truffle.js as it looks like below
 ```
 module.exports = {
     networks: {
@@ -25,3 +25,12 @@ module.exports = {
     }
 };
 ```
+
+Theree important files
+
+1. AddSubTest.sol - Contain _SquareTest_ & _AddSubTest_ contracts
+
+2. TestSquareTest.sol - Test functions for _SquareTest_
+3. TestAddSubTest.sol - Test functions for _AddSubTest_
+
+
