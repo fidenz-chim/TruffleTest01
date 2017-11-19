@@ -35,6 +35,9 @@ Theree important files
 3. TestAddSubTest.sol - Test functions for _AddSubTest_
 
 From your project directory, run following commands to see the sample program in action.
+```
+testrpc
+```
 
 ```
 truffle compile
