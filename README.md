@@ -12,7 +12,8 @@ http://truffleframework.com/docs/getting_started/installation
 Setup testrpc
 https://github.com/ethereumjs/testrpc
 
-**Setting up the project** 
+**Setting up the project**
+
 Clone [this](https://github.com/fidenz-chim/TruffleTest01) repository into your local machine
 
 Run _truffle init_ to initialise the project with truffle, but you do not have to do this if you are using this repo.
@@ -40,6 +41,7 @@ Theree important files
 3. TestAddSubTest.sol - Test functions for _AddSubTest_
 
 **Run the project**
+
 From your project directory, run following commands to see the sample program in action.
 ```
 testrpc
