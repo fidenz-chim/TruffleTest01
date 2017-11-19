@@ -48,3 +48,4 @@ truffle test
 
 If everything works fine, you would get 4 test passes and one failure. Feel free to play with TestSquareTest,  TestAddSubTest & AddSubTest try out different test scenarios. 
 
+Special thank to [What's Solidity](https://www.youtube.com/channel/UCaWes1eWQ9TbzA695gl_PtA) as this is an excercise based on following [this](https://www.youtube.com/watch?v=YcTSilIfih0) video. 
