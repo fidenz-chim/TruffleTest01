@@ -14,7 +14,7 @@ https://github.com/ethereumjs/testrpc
 Create a new folder for test projet, run "truffle init" in your terminal (should be in newly created folder)
 
 Update truffle.js
-'''
+```
 module.exports = {
     networks: {
         development: {
@@ -24,4 +24,4 @@ module.exports = {
         }
     }
 };
-'''
+```
